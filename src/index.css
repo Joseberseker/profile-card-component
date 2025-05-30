@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Kumbh Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("./assets/fonts/Kumbh_Sans/KumbhSans-VariableFont_YOPQ\,wght.ttf")
+    format("woff2");
+}
+
+@theme {
+  --color-Dark-cyan: hsl(185, 75%, 39%);
+  --color-Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --color-Dark-grayish-blue: hsl(227, 10%, 46%);
+  --color-Dark-gray: hsl(0, 0%, 59%);
+  --font-Kumbh-Sans: 'Kumbh Sans';
+}
